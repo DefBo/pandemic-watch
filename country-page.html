@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Pandemic Watch</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Sample description." name="description" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- App favicon -->
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+        <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- third party css -->
+        <!--<link href="assets/libs/datatables/dataTables.bootstrap4.css" rel="stylesheet" type="text/css" />
+        <link href="assets/libs/datatables/responsive.bootstrap4.css" rel="stylesheet" type="text/css" />
+        <link href="assets/libs/datatables/fixedHeader.dataTables.min.css" rel="stylesheet" type="text/css" />-->
+        <!-- third party css end -->
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body class="boxed-layout" data-keep-enlarged="true">
+
+    <div id="wrapper">
+            <!-- Topbar Start -->
+            <div class="navbar-custom navbar-custom-light">
+
+                <!-- LOGO -->
+                <div class="logo-box logo-box_visible">
+                    <a href="index.html" class="logo text-center">
+                        <span class="logo_lg">
+                            <img src="assets/images/logo_lg.png" alt="" height="42">
+                        </span>
+                        <span class="logo_sm">
+                            <img src="assets/images/logo_sm.png" alt="" height="42">
+                        </span>
+                    </a>
+                </div>
+
+                <ul class="list-unstyled topnav-menu topnav-menu_custom topnav-menu-left m-0">
+                    <li>
+                        <a class="nav-link waves-effect waves-light" href="#">
+                            Maps
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link waves-effect waves-light" href="#">
+                            Graphs
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link waves-effect waves-light" href="#">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- end Topbar -->
+
+            <div class="content-page content-page_custom">
+                <div class="content">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <h1>Specific Country page</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- third party js -->
+        <!--<script src="assets/libs/datatables/jquery.dataTables.min.js"></script>
+        <script src="assets/libs/datatables/dataTables.bootstrap4.js"></script>
+        <script src="assets/libs/datatables/dataTables.responsive.min.js"></script>
+        <script src="assets/libs/datatables/responsive.bootstrap4.min.js"></script>
+        <script src="assets/libs/datatables/dataTables.fixedHeader.min.js"></script>-->
+
+        <!-- third party js ends -->
+
+        <!-- DataTables initialization -->
+        <!--<script>
+            $('.main-table__box').on('scroll', function() {
+                fixTableHeader();
+            });
+
+            $(window).on('scroll', function () {
+                fixTableHeader();
+            });
+
+            function fixTableHeader() {
+                try {
+                    if ($('.fixedHeader-floating').length) {
+                        var offset = $('#main-datatable').offset().left;
+                        $('.fixedHeader-floating').css({
+                            'left': offset+"px",
+                        });
+                    }
+                } catch (err) {
+                    console.log("Caught exception: "+err.message, err.stack);
+                }
+            }
+
+            $(document).ready(function() {
+                // Scroll Horizontal Datatable
+                $('#main-datatable').DataTable({
+                    paging: false,
+                    searching: false,
+                    info: false,
+                    fixedHeader: true,
+                    sDom: 't',
+                    order: [[ 4, "desc" ]],
+                    autoWidth: false,
+                });
+            });
+        </script>-->
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+        
+    </body>
+
+</html>
