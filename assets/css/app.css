@@ -4498,3 +4498,12 @@ body.boxed-layout #wrapper {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     opacity: 0.25; }
+
+.country-page__icon {
+  display: block;
+  width: 59px;
+  height: 59px; }
+
+.country-page__list {
+  font-size: 17px;
+  margin-top: 22px; }
