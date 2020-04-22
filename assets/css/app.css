@@ -4304,6 +4304,8 @@ body.boxed-layout #wrapper {
     text-align: center; }
   .main-table__td:first-child, .main-table__th:first-child {
     text-align: left; }
+  .main-table__td:nth-child(even), .main-table__th:nth-child(even) {
+    background-color: #f0f5f7; }
 
 .main-table__footer .main-table__td {
   font-weight: 600; }
@@ -4526,3 +4528,6 @@ body.boxed-layout #wrapper {
   @media (max-width: 991px) {
     .card-box__inner {
       min-height: auto; } }
+
+#main-datatable_filter {
+  margin: 0.5em 0.5em 0 !important; }
